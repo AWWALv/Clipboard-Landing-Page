@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+header{
+    background-image: url(./images/bg-header-mobile.png);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main{
+    height: 60vh;
+}
+.header-logo{
+   display: block;
+   margin:  auto;
+   padding-top: 8em;
+}
+.header-text{
+    text-align: center;
+    margin: 2em 0em;
+}
+.header-text h2{
+    margin: 1em 4em;
+    color: hsl(210, 10%, 33%);
+    font-size: 2.5em;
+    font-weight: 600;
+
+}
+.header-text h4{
+    padding: 0 2em;
+    color: hsl(201, 11%, 66%);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2em 6em;
+    margin: 2em auto;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+}
+.ios-btn{
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+}
+.ios-btn:hover{
+    box-shadow: 2px 4px 8px hsl(171, 66%, 44%);
+    transform: scale(1.1);
+}
+.mac-btn{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+}
+.mac-btn:hover{
+    box-shadow: 2px 4px 8px hsl(233, 100%, 69%);
+    transform: scale(1.1);
+}
+article{
+    height: 100%;
+    margin: 4em 0em;
+}
+.track-section h2{
+    margin: 1em 2em;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+.track-section h4{
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    padding: 1em 3em;
+    line-height: 1.4;
+    font-size: 1.5em;
+
+}
+.computer-img{
+    width:35em;
+    display: block;
+    text-align: center;
+    margin: 2em auto;  
+}
+.features-section {
+    text-align: center;
+
+}
+.features-section h2{
+    color: hsl(210, 10%, 33%);
+    padding: 1em 0em 0.3em 0em;
+    font-size: 2.5em;
+
+}
+.features-section h4{
+    color: hsl(201, 11%, 66%);
+    font-size: 1.5em;
+    padding: 0em 5em;
+
+}
+.clipboard{
+    text-align: center;
+    height: 80vh;
+    margin: 2em 0em;
+    
+}
+.clipboard h2{
+    color: hsl(210, 10%, 33%);
+    padding: 1em 0em 0em 0em;
+    font-size: 3.5em;
+    margin: 2em 0em 1em 0em;
+}
+.clipboard p{
+    color: hsl(201, 11%, 66%);
+    font-size: 1.5em;
+    line-height: 1.4;
+    padding: 0em 5em;
+}
+.clipboard img{
+    width:40em;
+    display: block;
+    text-align: center;
+    margin: 5em auto 0em auto;  
+}
+.supercharge{
+    text-align: center;
+}
+.supercharge h2{
+    color: hsl(210, 10%, 33%);
+    padding: 1em 0em 0.3em 0em;
+    font-size: 3.0em;
+}
+.supercharge h4{
+    color: hsl(201, 11%, 66%);
+    font-size: 1.5em;
+    line-height: 1.4;
+    margin: 0em 0em 3em 0em;
+
+}
+.other-features{
+    text-align: center;
+}
+.other-features h2{
+    color: hsl(210, 10%, 33%);
+    margin: 1em 0em 0em 0em;
+    font-size: 2.5em;
+
+}
+
+.other-features p{
+    color: hsl(201, 11%, 66%);
+    font-size: 1.3em;
+    line-height: 1.4;
+    padding: 0em 4em 2em 4em;
+
+}
+.other-features img{
+    width: 12em;
+}
+.icon-section{
+    height: 100%;
+}
+.icon-section div{
+    text-align: center;
+    padding: 4em 0em 3em 0em;
+}
+.icon-section img{
+    width: 20em;
+}
+footer{
+  background-color:hsl(201, 11%, 80%);
+  text-align: center;
+}
+.footer-logo{
+    padding:2em;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+footer a{
+    padding: 0.5em 0em;
+    font-size: 2em;
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    transition: 0.5s ease-in-out;
+}
+footer a:hover{
+    transform: scale(1.2);
+
+}
+#media-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+
+}
+#media-logos a{
+    padding: 1em 1em; 
+}
+#media-logos img{
+    width:40px;
+}
+
+@media screen  and (min-width:1200px){
+    header{
+        background-image: url(./images/bg-header-desktop.png);
+        height: 40vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .download-button{
+        display: flex;
+        justify-content: center;
+    }
+    button{
+        margin: 2em;
+    }
+    .header-text h4{
+        padding: 1em 10em 1em 10em;
+        font-weight: 400;
+    }
+    .track-section h2{
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+    .track-section h4{
+        padding: 1em 10em 1em 10em;
+        font-weight: 400;
+    }
+    .computer-features{
+        display: flex;
+        align-items: flex-start;
+    }
+    .computer-img{
+        width: 40em;
+        display: block;
+        text-align: center;
+        margin: 2em auto;  
+    }
+    .features-section h2{
+        color: hsl(210, 10%, 33%);
+        padding: 1em 0em 0.3em 0em;
+        font-size: 2.0em;
+        font-weight: 600;
+    
+    }
+    .features-section h4{
+        color: hsl(201, 11%, 66%);
+        font-size: 1.5em;
+        padding: 0em 5em;
+        font-weight: 400;
+    
+    }
+    .clipboard{
+        text-align: center;
+        height: 80vh;
+        margin: 0em 0em;
+    }
+    .clipboard h2{
+        color: hsl(210, 10%, 33%);
+        padding: 1em 0em 0em 0em;
+        font-size: 3.5em;
+        margin: 0em 0em 1em 0em;
+        font-weight: 600;
+    }
+    .clipboard p{
+        padding: 1em 10em 1em 10em;
+    }
+    .clipboard img{
+        width: 50em;
+        margin: 3em auto 0em auto; 
+    }
+    .other-features{
+        display: flex;
+        align-items: flex-end;
+        
+
+    }
+    .other-features h2{
+        color: hsl(210, 10%, 33%);
+        margin: 1em 0em 0em 0em;
+        font-size: 1.0em;
+        font-weight: 600;
+    }
+    
+    .other-features p{
+        color: hsl(201, 11%, 66%);
+        font-size: 1em;
+        line-height: 1.4;
+        padding: 0em 5em 2em 5em;
+    
+    }
+    .other-features img{
+        width: 5em;
+    }
+    .icon-section{
+        display: flex;
+        justify-content: space-around;
+        height:100%;
+    }
+    .icon-section img{
+        width: 10em;
+    }
+    .icon-section div{
+        text-align: center;
+        margin: 0em 4em 10em 4em;
+        padding: 5em 0em 2em 0em;
+       
+    }
+    .supercharge{
+        text-align: center;
+        margin: 20em 0em 0em 0em;
+       
+    }
+    .supercharge h2{
+        color: hsl(210, 10%, 33%);
+        padding: 1em 0em 0.3em 0em;
+        font-size: 3.0em;
+      
+    }
+    .supercharge h4{
+        color: hsl(201, 11%, 66%);
+        font-size: 1.5em;
+        line-height: 1.4;
+        margin: 0em 0em 3em 0em;
+    
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 40vh;
+        padding-top: 2em;
+    }
+    #media-logos{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-end;
+        align-items: center;
+    
+    }
+    #media-logos a{
+        padding: 1em 0.3em; 
+    }
+    .footer-logo{
+        width: 15em;
+        padding: 0em;
+    }
+    footer a{
+        padding: 0.5em 0em;
+        font-size: 1.4em;
+
+     
+    
+
+        
+
+    
+
+
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
