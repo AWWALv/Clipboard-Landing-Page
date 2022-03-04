@@ -6,16 +6,17 @@
 }
 body{
     font-family: 'Bai Jamjuree', sans-serif;
+
 }
 header{
     background-image: url(./images/bg-header-mobile.png);
-    height: 40vh;
+    height: 100%;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 main{
-    height: 60vh;
+    height: 100%;
 }
 .header-logo{
    display: block;
@@ -72,6 +73,9 @@ article{
     height: 100%;
     margin: 4em 0em;
 }
+.track-section{
+    height: 100%;
+}
 .track-section h2{
     margin: 1em 2em;
     color: hsl(210, 10%, 33%);
@@ -87,6 +91,9 @@ article{
     font-size: 1.5em;
 
 }
+.computer-features{
+    height: 100%;
+}
 .computer-img{
     width:35em;
     display: block;
@@ -95,6 +102,7 @@ article{
 }
 .features-section {
     text-align: center;
+    height: 100%;
 
 }
 .features-section h2{
@@ -111,7 +119,7 @@ article{
 }
 .clipboard{
     text-align: center;
-    height: 80vh;
+    height: 100%;
     margin: 2em 0em;
     
 }
@@ -135,6 +143,7 @@ article{
 }
 .supercharge{
     text-align: center;
+    height: 100%;
 }
 .supercharge h2{
     color: hsl(210, 10%, 33%);
@@ -150,6 +159,7 @@ article{
 }
 .other-features{
     text-align: center;
+    height: 100%;
 }
 .other-features h2{
     color: hsl(210, 10%, 33%);
@@ -181,6 +191,7 @@ article{
 footer{
   background-color:hsl(201, 11%, 80%);
   text-align: center;
+  height: 100%;
 }
 .footer-logo{
     padding:2em;
@@ -364,16 +375,6 @@ footer a:hover{
         padding: 0.5em 0em;
         font-size: 1.4em;
     }
-    .attribution {
-        font-size: 11px;
-        text-align: center; 
-    }
-    .attribution a {
-        color: hsl(228, 45%, 44%);
-    }
-        
-        
-    
-
+  
 }
 
