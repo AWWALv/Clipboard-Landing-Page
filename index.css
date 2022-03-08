@@ -140,8 +140,8 @@ article{
 .clipboard p{
     color: hsl(201, 11%, 66%);
     font-size: 1.0em;
-    line-height: 1.4;
-    padding: 0em 0em;
+    line-height: 1;
+    margin: 0em 1em;
 }
 .clipboard img{
     width:20em;
