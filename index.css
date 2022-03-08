@@ -245,6 +245,11 @@ footer a:hover{
         background-size: cover;
         background-repeat: no-repeat;
     }
+    article{
+       height: 100%;
+       margin: 5em 0em 4em 0em;
+     
+    }
     .download-button{
         display: flex;
         justify-content: center;
