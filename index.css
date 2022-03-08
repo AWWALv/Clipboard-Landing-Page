@@ -88,11 +88,10 @@ article{
     font-weight: 600;
 }
 .track-section h4{
-    color: hsl(201, 11%, 66%);
+     color: hsl(201, 11%, 66%);
     text-align: center;
-    padding: 1em 3em;
     line-height: 1.4;
-    font-size: 1.5em;
+    font-size: 1.0em;
 
 }
 .computer-features{
@@ -102,7 +101,7 @@ article{
     place-items: center;
 }
 .computer-img{
-    width:25em;
+    width:17em;
     text-align: center;
     margin: 2em auto;  
 }
@@ -120,8 +119,8 @@ article{
 }
 .features-section h4{
     color: hsl(201, 11%, 66%);
-    font-size: 1.5em;
-    padding: 0em 5em;
+    font-size: 1.0em;
+    text-align:center;
 
 }
 .clipboard{
@@ -214,7 +213,7 @@ footer div{
 }
 footer a{
     padding: 0.5em 0em;
-    font-size: 2em;
+    font-size: 2em;0
     text-decoration: none;
     color: hsl(210, 10%, 33%);
     transition: 0.5s ease-in-out;
