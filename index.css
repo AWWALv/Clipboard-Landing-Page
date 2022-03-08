@@ -30,7 +30,7 @@ main{
     margin: 2em 0em;
 }
 .header-text h2{
-    margin: 1em 0em;
+    margin: 1em 1em;
     color: hsl(210, 10%, 33%);
     font-size: 1.5em;
     font-weight: 600;
@@ -47,11 +47,11 @@ button{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 1em 4em;
-    margin: 1em auto;
+    padding: 1em 3em;
+    margin: 2em auto;
     border-radius: 50px;
     border: none;
-    font-size: 15px;
+    font-size: 20px;
     transition: 0.5s ease-in-out;
 }
 .ios-btn{
@@ -60,7 +60,7 @@ button{
 }
 .ios-btn:hover{
     box-shadow: 2px 4px 8px hsl(171, 66%, 44%);
-    transform: scale(1.0);
+    transform: scale(1.1);
 }
 .mac-btn{
     background-color: hsl(233, 100%, 69%);
@@ -68,7 +68,7 @@ button{
 }
 .mac-btn:hover{
     box-shadow: 2px 4px 8px hsl(233, 100%, 69%);
-    transform: scale(1.0);
+    transform: scale(1.1);
 }
 article{
     height: 100%;
@@ -91,6 +91,8 @@ article{
     text-align: center;
     line-height: 1.4;
     font-size: 1.0em;
+    margin: 1em 1em;    
+    font-weight: 400;
 
 }
 .computer-features{
@@ -120,26 +122,28 @@ article{
     color: hsl(201, 11%, 66%);
     font-size: 1.0em;
     text-align:center;
+    margin: 1em 1em;    
+    font-weight: 400;
 
 }
 .clipboard{
     text-align: center;
     height: 100%;
     margin: 2em 0em;
-    width: 100%;
-   
-    
+    width: 100%;   
 }
 .clipboard h2{
     color: hsl(210, 10%, 33%);
     padding: 1em 0em 0em 0em;
     font-size: 2.5em;
-    margin: 2em 0em 1em 0em;
+    margin: 2em 1em;
 }
 .clipboard p{
     color: hsl(201, 11%, 66%);
     font-size: 1.0em;
     margin: 0em 0em;
+    margin: 1em 1em;    
+    font-weight: 400;
 }
 .clipboard img{
     width:20em;
@@ -186,7 +190,7 @@ article{
 
 }
 .other-features img{
-    width: 12em;
+    width: 10em;
 }
 .icon-section{
     height: 100%;
@@ -195,10 +199,10 @@ article{
 }
 .icon-section div{
     text-align: center;
-    padding: 4em 0em 3em 0em;
+    padding: 3em 0em 3em 0em;
 }
 .icon-section img{
-    width: 15em;
+    width: 10em;
 }
 footer{
   background-color:hsl(201, 11%, 80%);
@@ -247,7 +251,7 @@ footer a:hover{
     }
     article{
        height: 100%;
-       margin: 4em 0em 4em 0em;
+       margin: 6em 0em 4em 0em;
      
     }
     .download-button{
