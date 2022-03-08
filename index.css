@@ -6,9 +6,6 @@
 }
 body{
     font-family: 'Bai Jamjuree', sans-serif;
-    padding: 0px 10px;
-    background-color:blue;
-
 }
 header{
     background-image: url(./images/bg-header-mobile.png);
@@ -20,6 +17,7 @@ header{
 main{
     height: 100%;
     width: 100%;
+    padding: 0px 10px;
     
 }
 .header-logo{
@@ -75,6 +73,7 @@ button{
 article{
     height: 100%;
     margin: 4em 0em;
+    padding: 0px 10px;
 }
 .track-section{
     height: 100%;
@@ -128,6 +127,7 @@ article{
     height: 100%;
     margin: 2em 0em;
     width: 100%;
+    padding: 0px 10px;
     
 }
 .clipboard h2{
@@ -151,6 +151,7 @@ article{
     text-align: center;
     height: 100%;
     width: 100%;
+    padding: 0px 10px;
 }
 .supercharge h2{
     color: hsl(210, 10%, 33%);
@@ -168,6 +169,7 @@ article{
     text-align: center;
     height: 100%;
     width: 100%;
+    padding: 0px 10px;
 }
 .other-features h2{
     color: hsl(210, 10%, 33%);
@@ -189,6 +191,7 @@ article{
 .icon-section{
     height: 100%;
     width: 100%;
+    padding: 0px 10px;
 }
 .icon-section div{
     text-align: center;
