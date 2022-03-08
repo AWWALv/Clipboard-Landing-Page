@@ -6,9 +6,6 @@
 }
 body{
     font-family: 'Bai Jamjuree', sans-serif;
-    display:grid;
-    grid-template-column:1fr;
-    place-items:center;
 
 }
 header{
