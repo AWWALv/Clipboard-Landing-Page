@@ -32,7 +32,7 @@ main{
 .header-text h2{
     margin: 1em 4em;
     color: hsl(210, 10%, 33%);
-    font-size: 2.0em;
+    font-size: 1.5em;
     font-weight: 600;
     
 
@@ -40,7 +40,7 @@ main{
 .header-text h4{
     margin: 0 2em;
     color: hsl(201, 11%, 66%);
-    font-size: 1.5em;
+    font-size: 1.0em;
     font-weight: 400;
 }
 button{
@@ -49,7 +49,7 @@ button{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2em 6em;
+    padding: 2em 4em;
     margin: 2em auto;
     border-radius: 50px;
     border: none;
@@ -84,7 +84,7 @@ article{
     margin: 1em 2em;
     color: hsl(210, 10%, 33%);
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.0em;
     font-weight: 600;
 }
 .track-section h4{
@@ -115,7 +115,7 @@ article{
 .features-section h2{
     color: hsl(210, 10%, 33%);
     padding: 1em 0em 0.3em 0em;
-    font-size: 2.5em;
+    font-size: 2.0em;
 
 }
 .features-section h4{
@@ -127,24 +127,24 @@ article{
 .clipboard{
     text-align: center;
     height: 100%;
-    margin: 2em 0em;
+    margin: 2em 1em;
     width: 100%;
     
 }
 .clipboard h2{
     color: hsl(210, 10%, 33%);
     padding: 1em 0em 0em 0em;
-    font-size: 3.5em;
+    font-size: 2.5em;
     margin: 2em 0em 1em 0em;
 }
 .clipboard p{
     color: hsl(201, 11%, 66%);
-    font-size: 1.5em;
+    font-size: 1.0em;
     line-height: 1.4;
     padding: 0em 0em;
 }
 .clipboard img{
-    width:25em;
+    width:20em;
     display: block;
     text-align: center;
     margin: 5em auto 0em auto;  
@@ -157,11 +157,11 @@ article{
 .supercharge h2{
     color: hsl(210, 10%, 33%);
     padding: 1em 0em 0.3em 0em;
-    font-size: 3.0em;
+    font-size: 2.5em;
 }
 .supercharge h4{
     color: hsl(201, 11%, 66%);
-    font-size: 1.5em;
+    font-size: 1.0em;
     line-height: 1.4;
     margin: 0em 0em 3em 0em;
 
@@ -174,14 +174,14 @@ article{
 .other-features h2{
     color: hsl(210, 10%, 33%);
     margin: 1em 0em 0em 0em;
-    font-size: 2.5em;
+    font-size: 2.0em;
 
 }
 
 .other-features p{
     color: hsl(201, 11%, 66%);
-    font-size: 1.3em;
-    line-height: 1.4;
+    font-size: 1.0em;
+    line-height: 1.2;
     padding: 0em 4em 2em 4em;
 
 }
@@ -249,8 +249,19 @@ footer a:hover{
         justify-content: center;
     }
     button{
-        margin: 2em;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2em 6em;
+    margin: 2em auto;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+}
+  
      .header-text h2{
         font-size: 2.5em;
     }
