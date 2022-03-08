@@ -247,12 +247,13 @@ footer a:hover{
     }
     article{
        height: 100%;
-       margin: 7em 0em 4em 0em;
+       margin: 4em 0em 4em 0em;
      
     }
     .download-button{
         display: flex;
         justify-content: center;
+        margin-top:2em;
     }
     button{
     display: flex;
